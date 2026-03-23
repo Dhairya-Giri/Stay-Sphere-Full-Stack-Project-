@@ -1,0 +1,98 @@
+body {
+    font-family: "Plus Jakarta Sans", sans-serif !important;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+.container{
+    flex: 1;
+}
+.navbar {
+    height: 5rem;
+}
+
+.fa-compass {
+    font-size: 2rem;
+    color: #fe424d;
+}
+
+.nav-link {
+    color: black !important;
+}
+
+/* styling for footer */
+
+.f-info-links a {
+    text-decoration: none;
+    color: black;
+}
+
+.f-info-links a:hover {
+    text-decoration: underline;
+}
+
+.f-info-soicals,
+.f-info-soicals,
+.f-info-name {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.f-info-soicals i {
+    margin-right: 1rem;
+}
+
+.f-info {
+    text-align: center;
+    height: 8rem;
+    background-color: #ebebeb;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: space-evenly;
+}
+
+/* for cards */
+.listing-card {
+    border: none !important;
+    margin-bottom: 2rem;
+}
+
+.card-img-top {
+    border-radius: 1rem !important;
+    width: 100% !important;
+    object-fit: cover !important;
+}
+
+.card-body {
+    padding: 0 !important;
+}
+
+.card-text {
+    font-weight: 400 !important;
+}
+.listing-link{
+    text-decoration: none;
+}
+/* overlay effect */
+.card-img-overlay{
+    opacity: 0;
+}
+.card-img-overlay:hover{
+    opacity: 0.2;
+    background-color: white ;
+}
+/* for edit page */
+.show-img{
+    height: 30vh;
+}
+.btns{
+display: flex;
+}
+.show-card{
+padding-left: 0;
+padding-right: 0;
+     
+}
