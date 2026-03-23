@@ -106,7 +106,9 @@ app.use((req, res, next) => {
     next(new ExpressError(404, "Page Not Found"))
 })
 app.use((err, req, res, next) => {
+     console.log(err); 
     const { statusCode = 500, message = "Something went wrong" } = err;
+    
     res.render("./listings/error.ejs",{message});
 })
 
