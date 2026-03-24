@@ -151,7 +151,7 @@ Example:
 ## 📬 Contact
 
 * LinkedIn: https://linkedin.com/in/YOUR-LINK
-* GitHub: https://github.com/YOUR-USERNAME
+* GitHub: https://github.com/Dhairya-Giri
 
 ---
 
