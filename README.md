@@ -120,15 +120,22 @@ The project is deployed on **Render**.
 
 ## 📸 Screenshots
 
-(Add screenshots here to improve project presentation)
+## 📸 Screenshots
 
-Example:
+### 🏠 Home Page
+![Home](./screenshots/homePage.png)
 
-```
-![Home](./screenshots/home.png)
-```
+### 🔐 Login Page
+![Login](./screenshots/LoginPage.png)
 
----
+### ➕ Create Listing
+![Create](./screenshots/addNewListing.png)
+
+### ⭐ Review System
+![Reviews](./screenshots/review.png)
+
+### 📄 Listings Page
+![Listings](./screenshots/listingOptions.png)
 
 ## 📈 Future Improvements
 
