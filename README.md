@@ -150,7 +150,7 @@ Example:
 
 ## 📬 Contact
 
-* LinkedIn: https://linkedin.com/in/YOUR-LINK
+* LinkedIn: https://www.linkedin.com/in/dhairya-giri/
 * GitHub: https://github.com/Dhairya-Giri
 
 ---
