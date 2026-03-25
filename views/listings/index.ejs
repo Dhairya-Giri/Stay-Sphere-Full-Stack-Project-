@@ -1,22 +1,27 @@
 <% layout("layouts/boilerplate") %>
 <style>
-    #filters{
-        display: flex;
-        flex-wrap: wrap;
-        
-    }
-    .filter{
-        text-align: center;
-        margin-right: 2rem;
-        margin-top: 2rem;
-        opacity: 0.7;
-        text-decoration: none;
-        color: black;
-    }
+   #filters {
+    display: flex;
+    gap: 1.5rem;
+    overflow-x: auto;
+    white-space: nowrap;
+    padding: 1rem;
+}
+
+.filter {
+    text-align: center;
+    opacity: 0.7;
+    text-decoration: none;
+    color: black;
+    flex: 0 0 auto; /* IMPORTANT: prevents shrinking */
+}
     .filter:hover{
         opacity: 1;
         cursor: pointer;
     }
+    #filters::-webkit-scrollbar {
+    display: none;
+}
 </style>
     
    <div id="filters">
