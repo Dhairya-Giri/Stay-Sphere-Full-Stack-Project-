@@ -30,6 +30,19 @@
             integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
             crossorigin="anonymous"></script>
             <script src="/js/script.js"></script>
+            <script>
+  const navLinks = document.querySelectorAll(".nav-link");
+  const menuToggle = document.getElementById("navbarNav");
+
+  navLinks.forEach(link => {
+    link.addEventListener("click", () => {
+      const bsCollapse = new bootstrap.Collapse(menuToggle, {
+        toggle: false
+      });
+      bsCollapse.hide();
+    });
+  });
+</script>
 </body>
  <%-include("../includes/footer.ejs")%>
 </html>
