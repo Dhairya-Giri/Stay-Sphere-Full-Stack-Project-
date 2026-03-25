@@ -4,6 +4,7 @@
 A full-stack MERN web application that allows users to explore, create, and review unique stays like mountains, farms, pools, and rooms.
 
 🔗 **Live Demo:** https://stay-sphere-kltt.onrender.com
+(May feel a bit slow as everything hosted on free service)
 
 ---
 
